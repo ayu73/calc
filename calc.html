@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>電卓</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="calc.css">
+	</link>
 </head>
-<body>
 
+<body>
+	<form name="CalcForm">
+		<input type="text" size="29" name="form" value="0">
+		<table>
+			<tr>
+				<td align="center"><input type="button" value="7" onclick=""></td>
+				<td align="center"><input type="button" value="8" onclick=""></td>
+				<td align="center"><input type="button" value="9" onclick=""></td>
+				<td align="center"><input type="button" value="÷" onclick="" class="operator"></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="button" value="4" onclick=""></td>
+				<td align="center"><input type="button" value="5" onclick=""></td>
+				<td align="center"><input type="button" value="6" onclick=""></td>
+				<td align="center"><input type="button" value="×" onclick="" class="operator"></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="button" value="1" onclick=""></td>
+				<td align="center"><input type="button" value="2" onclick=""></td>
+				<td align="center"><input type="button" value="3" onclick=""></td>
+				<td align="center"><input type="button" value="-" onclick="" class="operator"></td>
+			</tr>
+			<tr>
+				<td align="center"><input type="button" value="C" onclick="clear()" class="clear"></td>
+				<td align="center"><input type="button" value="0" onclick=""></td>
+				<td align="center"><input type="button" value="=" onclick="" class="operator"></td>
+				<td align="center"><input type="button" value="+" onclick="" class="operator"></td>
+			</tr>
+		</table>
+	</form>
 </body>
+
 </html>

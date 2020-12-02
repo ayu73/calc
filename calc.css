@@ -1,0 +1,17 @@
+#CalcForm {
+    padding-left: 1px;
+}
+
+input {
+    padding: 10px 25px;
+    background-color: rgb(250, 249, 249);
+    border-radius: 5px;
+}
+
+.operator {
+    background-color: rgb(186, 194, 196);
+}
+
+.clear {
+    background-color: rgb(240, 175, 175);
+}
